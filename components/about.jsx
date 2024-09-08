@@ -4,36 +4,21 @@ export default function About() {
     return (
       <section id="about">
         <div className="flex items-center min-h-screen">
-          <div className="flex flex-col space-y-4 w-full">
-            <div className="text-[48px] md:text-[80px] font-bold">
-              Hi! I'm Gafar
+          <div className="flex flex-col items-center space-y-4 md:flex-row">
+            <div className="md:w-2/5 xl:w-1/3 flex justify-center">
+              <img
+                src="/avatar.svg"
+                alt="Gafar Bagas Habibi"
+                title="Gafar Bagas Habibi"
+                className="w-50 h-full rounded-xl object-cover object-top"
+              />
             </div>
-            <div className="text-[16px] md:text-[20px]">
-              Web Developer Enthusiast
-            </div>
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-6 md:space-y-0 md:space-x-8">
-              <a href="#" className="text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80 self-start md:self-auto">
-                <div className="flex items-center">
-                  <span className="mr-2">See My Project</span>
-                  <img src="/arrow_outward.svg" alt="mail" className="h-5 w-5" />
-                </div>
-              </a>
-              <div className="flex space-x-5">
-                <a href="https://linkedin.com/in/gafarbagashabibi" className="text-center" target="_blank">
-                  <img src="/linkedin.svg" alt="github" className="h-7 w-7" />
-                </a>
-                <a href="https://github.com/gafarbagas" className="text-center" target="_blank">
-                  <img src="/github.svg" alt="github" className="h-7 w-7" />
-                </a>
-                <a href="https://gitlab.com/gafarbagas" className="text-center" target="_blank">
-                  <img src="/gitlab.svg" alt="github" className="h-7 w-7" />
-                </a>
-                <a href="https://instagram.com/gafarbagas" className="text-center" target="_blank">
-                  <img src="/instagram.svg" alt="github" className="h-7 w-7" />
-                </a>
-                <a href="https://x.com/gafarbagas" className="text-center" target="_blank">
-                  <img src="/x.svg" alt="github" className="h-7 w-7" />
-                </a>
+            <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">
+              <div className="text-[28px] md:text-[36px] font-bold mb-4 text-center md:text-left">
+                ABOUT ME
+              </div>
+              <div className="text-lg">
+                I am a passionate learner who thrives on challenges and is eager to grow as a Frontend Developer. With 2 years of experience as a Fullstack Web Developer, I'm actively seeking opportunities to apply and expand my skills in the field.
               </div>
             </div>
           </div>
