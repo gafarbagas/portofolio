@@ -27,7 +27,7 @@ export default function Experience() {
                   Resolved bugs and ensured the ongoing maintenance of the website.
                 </li>
                 <li>
-                  Managed technical SEO, contributing to the SEO team's efforts to boost organic user impressions.
+                  Managed technical SEO, contributing to the SEO team&apos;s efforts to boost organic user impressions.
                 </li>
                 <li>
                   Trained and educated the content writer how to operate the CMS.

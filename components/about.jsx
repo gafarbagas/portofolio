@@ -1,16 +1,20 @@
 'use client'
 
+import Image from "next/image";
+
 export default function About() {
     return (
       <section id="about">
         <div className="flex items-center min-h-screen">
           <div className="flex flex-col items-center space-y-4 md:flex-row">
             <div className="md:w-2/5 xl:w-1/3 flex justify-center">
-              <img
+              <Image
                 src="/avatar.svg"
                 alt="Gafar Bagas Habibi"
                 title="Gafar Bagas Habibi"
                 className="w-50 h-full rounded-xl object-cover object-top"
+                width={300}
+                height={300}
               />
             </div>
             <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">

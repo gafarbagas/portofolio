@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from "react";
 
@@ -11,13 +12,13 @@ export default function Navbar() {
       <nav className="fixed w-full z-20 top-0 start-0 bg-[#000000]">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-8 py-4">
           <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="logo.svg" className="h-8" alt="Gaabs" />
+            <Image src="logo.svg" className="h-8" alt="Gaabs" width={300} height={300} />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <a href="mailto:gafarbagas.jobs@gmail.com" className="hidden md:block text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80" target="_blank">
               <div className="flex items-center">
                 <span className="mr-2">Send Me Email</span>
-                <img src="/mail.svg" alt="mail" className="h-5 w-5" />
+                <Image src="/mail.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
               </div>
             </a>
             <button
@@ -61,7 +62,7 @@ export default function Navbar() {
               <li className="md:hidden mt-3">
                 <a href="mailto:gafarbagas.jobs@gmail.com" className="flex items-center text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:text-gray-300 hover:border-gray-300">
                   <span className="mr-2">Send Me Email</span>
-                  <img src="/mail.svg" alt="mail" className="h-5 w-5" />
+                  <Image src="/mail.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
                 </a>
               </li>
             </ul>

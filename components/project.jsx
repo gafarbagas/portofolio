@@ -1,5 +1,7 @@
 'use client'
 
+import Image from "next/image";
+
 export default function Project() {
     return (
       <section id="project" className="py-24">
@@ -9,11 +11,13 @@ export default function Project() {
         <div className="mt-14">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-2/5 xl:w-1/3">
-              <img
+              <Image
                 src="/project-metafora-sd.png"
                 alt="Metafora SD Majalengka"
                 title="Metafora SD Majalengka"
                 className="w-full rounded-xl h-60 object-cover object-top"
+                width={300}
+                height={300}
               />
             </div>
             <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">
@@ -23,7 +27,7 @@ export default function Project() {
                   </div>
                 <a href="https://metaforasd.majalengkakab.go.id/" className="text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80 self-start md:self-auto" target="_blank">
                   <div className="flex items-center">
-                    <img src="/arrow_outward.svg" alt="mail" className="h-5 w-5" />
+                    <Image src="/arrow_outward.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
                   </div>
                 </a>
               </div>
@@ -43,11 +47,13 @@ export default function Project() {
 
           <div className="flex flex-col md:flex-row">
             <div className="md:w-2/5 xl:w-1/3">
-              <img
+              <Image
                 src="/project-voi-id.png"
                 alt="voi.id"
                 title="VOI.ID"
                 className="w-full rounded-xl h-60 object-cover object-top"
+                width={300}
+                height={300}
               />
             </div>
             <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">
@@ -57,13 +63,13 @@ export default function Project() {
                 </div>
                 <a href="https://voi.id" className="text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80 self-start md:self-auto" target="_blank">
                   <div className="flex items-center">
-                    <img src="/arrow_outward.svg" alt="mail" className="h-5 w-5" />
+                    <Image src="/arrow_outward.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
                   </div>
                 </a>
               </div>
 
               <p className="mb-4">
-                VOI is a news portal in Indonesia known for its tagline "Waktunya Merevolusi Pemberitaan" that offers a wide range of news and articles covering topics such as politics, economics, technology, and lifestyle.
+                VOI is a news portal in Indonesia known for its tagline &quot;Waktunya Merevolusi Pemberitaan&quot; that offers a wide range of news and articles covering topics such as politics, economics, technology, and lifestyle.
               </p>
 
               <div className="flex flex-wrap space-x-3 space-x-reverse gap-y-3">
@@ -80,11 +86,13 @@ export default function Project() {
 
           <div className="flex flex-col md:flex-row">
             <div className="md:w-2/5 xl:w-1/3">
-              <img
+              <Image
                 src="/project-era-id.png"
                 alt="ERA.ID"
                 title="ERA.ID"
                 className="w-full rounded-xl h-60 object-cover object-top"
+                width={300}
+                height={300}
               />
             </div>
             <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">
@@ -94,7 +102,7 @@ export default function Project() {
                 </div>
                 <a href="https://era.id" className="text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80 self-start md:self-auto" target="_blank">
                   <div className="flex items-center">
-                    <img src="/arrow_outward.svg" alt="mail" className="h-5 w-5" />
+                    <Image src="/arrow_outward.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
                   </div>
                 </a>
               </div>
@@ -115,11 +123,13 @@ export default function Project() {
 
           <div className="flex flex-col md:flex-row mb-16">
             <div className="md:w-2/5 xl:w-1/3">
-              <img
+              <Image
                 src="/project-samratulangi-clinic.png"
                 alt="Klinik Samratulangi"
                 title="Klinik Samratulangi"
                 className="w-full rounded-xl h-60 object-cover object-top"
+                width={300}
+                height={300}
               />
             </div>
             <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">
@@ -131,7 +141,7 @@ export default function Project() {
                 </div>
                 <a href="https://kliniksamratulangi.com" className="text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80 self-start md:self-auto" target="_blank">
                   <div className="flex items-center">
-                    <img src="/arrow_outward.svg" alt="mail" className="h-5 w-5" />
+                    <Image src="/arrow_outward.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
                   </div>
                 </a>
               </div>
