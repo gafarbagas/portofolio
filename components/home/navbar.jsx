@@ -12,13 +12,13 @@ export default function Navbar() {
       <nav className="fixed w-full z-20 top-0 start-0 bg-[#000000]">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-8 py-4">
           <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <Image src="logo.svg" className="h-8" alt="Gaabs" width={300} height={300} />
+            <Image src="logo.svg" className="h-8" alt="Gaabs" width={177} height={32}  />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <a href="mailto:gafarbagas.jobs@gmail.com" className="hidden md:block text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80" target="_blank">
               <div className="flex items-center">
                 <span className="mr-2">Send Me Email</span>
-                <Image src="/mail.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
+                <Image src="/mail.svg" alt="mail" className="w-5 h-4" width={20} height={16} />
               </div>
             </a>
             <button
