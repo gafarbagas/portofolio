@@ -1,11 +1,11 @@
 'use client'
 
-import Navbar from "../components/navbar";
-import HomeSection from "../components/home";
-import AboutSection from "../components/about";
-import ProjectSection from "../components/project";
-import ExperienceSection from "../components/experience";
-import Footer from "../components/footer";
+import Navbar from "../components/home/navbar";
+import HomeSection from "../components/home/home";
+import AboutSection from "../components/home/about";
+import ProjectSection from "../components/home/project";
+import ExperienceSection from "../components/home/experience";
+import Footer from "../components/home/footer";
 
 export default function Home() {
   return (
