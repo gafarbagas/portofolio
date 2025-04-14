@@ -12,6 +12,42 @@ export default function Project() {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-2/5 xl:w-1/3">
               <Image
+                src="/project-nongol-dulu.png"
+                alt="Metafora SD Majalengka"
+                title="Metafora SD Majalengka"
+                className="w-full rounded-xl h-60 object-cover object-top"
+                width={300}
+                height={300}
+              />
+            </div>
+            <div className="md:w-3/5 xl:w-2/3 md:ml-12 xl:ml-24 mt-4 md:mt-0">
+              <div className="flex flex-col items-baseline md:flex-row md:justify-between md:items-center mt-2 mb-4">
+                <div className="text-[28px] md:text-[36px] font-bold">
+                  Nongol Dulu
+                  </div>
+                <a href="https://nongoldulu.com/" className="text-white font-light rounded-full text-sm px-4 py-2 text-center border border-white hover:opacity-80 self-start md:self-auto" target="_blank">
+                  <div className="flex items-center">
+                    <Image src="/arrow_outward.svg" alt="mail" className="h-5 w-5" width={300} height={300} />
+                  </div>
+                </a>
+              </div>
+
+              <p className="mb-4">
+                Nongol Dulu is a digital attendance application using face recognition technology for accuracy and security, designed to help companies manage attendance, monitor daily activities, and provide transparent information for both employees and administrators.
+              </p>
+
+              <div className="flex flex-wrap space-x-3 space-x-reverse gap-y-3">
+                <div className="bg-[#FFFFFF33] px-4 py-2 rounded-full mr-3">Next.js</div>
+                <div className="bg-[#FFFFFF33] px-4 py-2 rounded-full">REST API</div>
+              </div>
+            </div>
+          </div>
+
+          <hr className="w-3/4 mx-auto my-12 border-gray-600" />
+
+          <div className="flex flex-col md:flex-row">
+            <div className="md:w-2/5 xl:w-1/3">
+              <Image
                 src="/project-metafora-sd.png"
                 alt="Metafora SD Majalengka"
                 title="Metafora SD Majalengka"

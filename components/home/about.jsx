@@ -22,7 +22,7 @@ export default function About() {
                 ABOUT ME
               </div>
               <div className="text-lg">
-                I am a passionate learner who thrives on challenges and is eager to grow as a Frontend Developer. With 2 years of experience as a Fullstack Web Developer, I am actively seeking opportunities to apply and expand my skills in the field.
+                {`Three years of experience have been gained in web development. For the past 6 months, I've been focusing on frontend development, building clean and responsive user interfaces. Before that, I worked as a fullstack developer, which gave me a solid understanding of both frontend and backend systems. I enjoy tackling challenges, solving problems, and learning new technologies. I'm always looking to grow and improve while delivering high-quality results.`}
               </div>
             </div>
           </div>
